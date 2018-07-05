@@ -1,0 +1,34 @@
+.Car{ 
+    box-sizing: border-box;
+    margin: 1rem;
+    display: block;
+    border: 5px solid #eee;
+    padding: 1rem;
+    background: #ececec;
+    text-align: left;
+}
+
+.Car__data-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Car__data-list__item{
+    padding: .5rem;
+    display: inline-block;
+    margin: .5rem .5rem 0 0;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.Car__title{
+    margin: .5rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .Car{  
+        display: inline-block;  
+        width: 47%; 
+    }
+} 

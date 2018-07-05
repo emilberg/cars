@@ -1,0 +1,19 @@
+.Search{ 
+    margin: 1rem auto;  
+    padding: 1rem;
+}
+.Search__input{
+    width: 250px;
+    margin: 0 auto;
+    padding: .5rem;
+    border: 2px solid #eee;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+    .Search{    
+        width: 80%;
+        text-align: center;     
+    }
+} 

@@ -1,0 +1,23 @@
+.Header{ 
+    box-sizing: border-box;
+    margin: 1rem auto;  
+    padding: 1rem;
+}
+
+.Header__title{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: .1rem;
+}       
+.Header__sub-title{
+    font-size: 1.5rem;
+    margin-top: 0;    
+    margin-bottom: .5rem;    
+}
+
+@media only screen and (min-width: 768px) {
+    .Header{    
+     width: 80%;
+     text-align: center;
+    }
+} 
